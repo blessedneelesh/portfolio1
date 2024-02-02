@@ -53,8 +53,8 @@ class Main extends React.Component {
           <Route exact path="/resume" component={Resume} />
           <Route exact path="/projects" component={ProjectPage} />
           <Route exact path="/skills" component={Skills} />
-          {/* <Route exact path="/blog" component={BlogPage} /> */}
-          {/* <Route exact path="/blog/:blogId" component={BlogWithId} /> */}
+          {/* <Route exact path="/blog" component={BlogPage} />
+          <Route exact path="/blog/:blogId" component={BlogWithId} /> */}
           <Redirect to="/home" />
         </Switch>
 

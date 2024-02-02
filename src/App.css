@@ -278,3 +278,15 @@
   line-height: 95px;
   font-size: 100%;
 }
+.skills {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .skills {
+    clear: both;
+    display: block;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+  }
+}
